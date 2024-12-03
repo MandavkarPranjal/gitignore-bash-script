@@ -43,13 +43,13 @@ gitignore-bash-script
 
 ## My Go-To way of using this script
 1. Add the script to your *tmux* config file.
-```bash
-# prefix + g
-bind-key -r g run-shell "tmux neww gitignore-bash-script"
-```
+    ```bash
+    # prefix + g
+    bind-key -r g run-shell "tmux neww gitignore-bash-script"
+    ```
 2. Add the script to your *neovim* config file.
-```lua
--- Ctrl-g
-vim.keymap.set("n", "<C-g>", ":silent !tmux neww ignore<CR>", { desc = "Open gitignorer" })
-```
+    ```lua
+    -- Ctrl-g
+    vim.keymap.set("n", "<C-g>", ":silent !tmux neww ignore<CR>", { desc = "Open gitignorer" })
+    ```
 **Note:** You can change the keybinding to whatever you want.
