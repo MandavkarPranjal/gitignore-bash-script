@@ -1,4 +1,4 @@
-# Automated gitignore genrator
+# Automated gitignore generator
 
 - This shell script allows you to generate a `.gitignore` file from the [gitignore.io](https://www.toptal.com/developers/gitignore) API.
 - It uses [fzf](https://github.com/junegunn/fzf) to select the gitignore file you want to download.
