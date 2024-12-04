@@ -36,12 +36,13 @@ OR
     echo 'export PATH="$PATH:$HOME/scripts"' >> ~/.bashrc # or ~/.zshrc
     ```
 3. Run the script using the following command:
-```bash
-gitignore-bash-script
-# you can also change the name of the script to whatever you want or create a alias
-```
+    ```bash
+    gitignore-bash-script
+    # you can also change the name of the script to whatever you want or create a alias
+    ```
 
 ## My Go-To way of using this script
+
 1. Add the script to your *tmux* config file.
     ```bash
     # prefix + g
@@ -52,4 +53,6 @@ gitignore-bash-script
     -- Ctrl-g
     vim.keymap.set("n", "<C-g>", ":silent !tmux neww ignore<CR>", { desc = "Open gitignorer" })
     ```
+
+That's it.  
 **Note:** You can change the keybinding to whatever you want.
